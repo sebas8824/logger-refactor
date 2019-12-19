@@ -1,6 +1,7 @@
 package model;
 
 public class Log {
+
     private String logMessage;
     private boolean isMessage;
     private boolean isWarning;

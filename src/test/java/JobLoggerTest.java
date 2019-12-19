@@ -158,6 +158,6 @@ public class JobLoggerTest {
         logLocations.add(LogLocation.CONSOLE);
         logLocations.add(LogLocation.TEXT);
         State state = JobLogger.logMessage(logLocations, logEntry, true, false);
-        Assert.assertEquals(state, State.LOGGED_IN_ALL);
+        Assert.assertEquals(state, State.LOGGED_IN_ALL_LOCATIONS);
     }
 }
